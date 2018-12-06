@@ -7,7 +7,7 @@ I wrote IdleNumber as a generic solution to working with the insane values a lot
 It is also possible to compare them in the same way.
 
 Examples:
-<script>
+```c#
 IdleNumber idleN1 = new IdleNumber();
 
 idleN1 += 2; //IdleN1 is now 2
@@ -21,4 +21,4 @@ idleN2 += 4;
 idleN2 > idleN1; //false
 
 idleN1 *= idleN2; //idleN1 is now 68
-</script>
+```
